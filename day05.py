@@ -21,6 +21,7 @@ def main():
 
     print(f"Puzzle 1: {asw1}")
 
+    # Puzzle 2
     asw2 = 0
     for protocol in protocols:
         if not is_valid_protocol(protocol, rules):
